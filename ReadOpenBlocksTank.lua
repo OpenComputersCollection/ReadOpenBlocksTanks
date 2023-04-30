@@ -37,7 +37,7 @@ function readable(number)
     return formatted_n
 end
 
-print("Enter where the direction the redstone signal should be read from.\nbottom=0\ntop=1\nback=2\nfront=3\nright=4\nleft=5\n(1,2,3,4,5): ")
+print("Enter the direction from where the redstone signal should be read.\nbottom=0\ntop=1\nback=2\nfront=3\nright=4\nleft=5\n(1,2,3,4,5): ")
 local side = tonumber(term.read())
 print("Enter the with of your tank:")
 local width = tonumber(term.read())
